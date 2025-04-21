@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Marroquinería</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffe6f0;
+      color: #333;
+    }
+    header {
+      background-color: #ffb6c1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #ffc0cb;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background-color: #ffe6f0;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .producto {
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .producto img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .producto h3 {
+      margin: 15px 0 10px;
+    }
+    .producto p {
+      font-size: 1rem;
+      color: #666;
+    }
+    .producto button {
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #ffc0cb;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Encanto en Cuero</h1>
+    <p>Estilo, calidad y elegancia en marroquinería</p>
+  </header>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <section class="hero">
+    <h1>Bienvenida a tu tienda favorita de marroquinería</h1>
+    <p>Descubre bolsos, carteras y accesorios hechos con amor</p>
+  </section>
+  <section class="productos" id="productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Bolso+Rosa" alt="Bolso rosa">
+      <h3>Bolso Rosa Chic</h3>
+      <p>Elegante bolso de cuero natural en tono rosa pastel.</p>
+      <button>Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Cartera+Blanca" alt="Cartera blanca">
+      <h3>Cartera Blanca</h3>
+      <p>Diseño minimalista con acabados en blanco puro.</p>
+      <button>Comprar</button>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x200?text=Accesorios+Rosados" alt="Accesorios rosados">
+      <h3>Set de Accesorios Rosados</h3>
+      <p>Conjunto de monederos y llaveros a juego.</p>
+      <button>Comprar</button>
+    </div>
+  </section>
+  <footer id="contacto">
+    <p>&copy; 2025 Encanto en Cuero - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
